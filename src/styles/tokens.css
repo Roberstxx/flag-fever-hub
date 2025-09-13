@@ -1,0 +1,33 @@
+/* Tipografía y variables. NO definir background del body aquí. */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+:root{
+  --card: #2A2F58;
+  --text: #E2E4F3;
+  --muted: #B8BECD;
+  --opt: #3A3F6B;
+  --opt-hover: #454B77;
+  --success: #34D399;
+  --error: #F87171;
+  --radius: 14px;
+  --shadow-1: 0 10px 30px rgba(0,0,0,.35);
+  --shadow-2: 0 6px 12px rgba(0,0,0,.2);
+  --grad: linear-gradient(90deg, #E65895 0%, #BC6BE8 100%);
+  
+  /* Typography scale */
+  --font-h1: 32px;
+  --font-h2: 24px;
+  --font-body: 16px;
+  --font-button: 16px;
+  --font-small: 13px;
+  
+  /* Font weights */
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-normal: 150ms ease;
+}
